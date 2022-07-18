@@ -1,4 +1,28 @@
-.menu-bar {
-   background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-   width="100%";
+body {
+    font-family: Gantari;
 }
+.menu-bar {
+    background: linear-gradient(90deg,#883cc7,#5042ef,#46b0ed);
+    border-radius: 10px;
+    border: 2px outset gray;
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 99%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+nav li {
+    padding: 5px 15px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/**/
