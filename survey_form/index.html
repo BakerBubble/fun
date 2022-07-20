@@ -1,0 +1,63 @@
+<!-- PROJECT ONE: Survey of Tech Ed -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <title>Survey of Free Tech-Ed</title>
+    <!--  <base href="https://cassidybaker.github.io/fun/" /> -->
+    <base href="C:\Users\Silana\source\repos\CassidyBaker\fun\" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" url="https://fonts.googleapis.com/css?family=Inter" />
+    <link rel="stylesheet" href="survey_form/styles.css" />
+</head>
+<body>
+    <h1 id="title">Survey of Free IT Educational Websites</h1>
+    <p id="description">Please help us evaluate some free Tech-ED websites.</p>
+    <form id="survey-form">
+        <h2>Information about you:</h2>
+        <fieldset>
+            <label id="name-label">Name: <input type="text" id="name" placeholder="First_name Last_name" /></label>
+            <label id="email-label">Email: <input type="email" id="email" placeholder="name@email.com" /></label>
+            <label id="number-label">Age: <input type="number" id="number" min="13" max="110" placeholder="Enter number between 13 and 100" /></label>
+        </fieldset>
+        <h2>What is your favorite Tech-ED site? </h2>
+        <fieldset>
+            <label>
+                Choose a Tech-ED site:
+                <select id="dropdown">
+                    <option>(select one)</option>
+                    <option>Khan Academy</option>
+                    <option>Free Code Camp</option>
+                    <option>The Odin Project</option>
+                    <option>Microsoft Learn</option>
+                </select>
+            </label>
+            <label>
+                Check what you like about this site:
+                <label>Video Lectures <input type="checkbox" value="video-lectures" /></label>
+                <label>Text Lectures <input type="checkbox" value="text-lectures" /></label>
+                <label>Follow-along Tutorials <input type="checkbox" value="tutorials" /></label>
+                <label>Independant Projects <input type="checkbox" value="projects" /></label>
+                <label>Learning Approach <input type="checkbox" value="approach" /></label>
+
+            </label>
+            <label>
+                Rate this site:
+                <label> 1 (poor)          : <input type="radio" name="site-rating" /></label>
+                <label> 2 (below average) : <input type="radio" name="site-rating" /></label>
+                <label> 3 (average)       : <input type="radio" name="site-rating" /></label>
+                <label> 4 (above average) : <input type="radio" name="site-rating" /></label>
+                <label> 5 (outstanding)   : <input type="radio" name="site-rating" /></label>
+            </label>
+        </fieldset>
+           <h2>What would you change about this site?</h2>
+        <fieldset>
+            <textarea></textarea>
+
+        </fieldset>
+         <input type="submit" id="submit" value="Submit"/>
+    </form>
+</body>
+</html>
+

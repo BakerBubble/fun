@@ -79,18 +79,18 @@ footer {
   margin-bottom: 5px;
 }
 
-a {
+footer  a {
   color: black;
 }
 
-a:visited {
-  color: black;
+footer a:visited {
+    color: black;
 }
 
-a:hover {
-  color: brown;
+footer a:hover {
+    color: brown;
 }
 
-a:active {
-  color: brown;
+footer a:active {
+    color: brown;
 }
