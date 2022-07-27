@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <!-- <base href="https://cassidybaker.github.io/fun/" />  -->
-    <base href="C:/Users/Silana/source/repos/CassidyBaker/fun/" />
+    <base href="https://cassidybaker.github.io/fun/" />
+    <!--  <base href="C:/Users/Silana/source/repos/CassidyBaker/fun/" />   -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -17,88 +17,88 @@
     <link rel="stylesheet" href="survey_form/styles.css" />
 
 </head>
-<body>
-    <header>
-        <div class="menu-bar">
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Cat Photo App</a></li>
-                    <li><a href="cafe_menu/index.html">Cafe Menu</a></li>
-                    <li class="drop-menu">
-                        <a href="css_color_markers/index.html">CSS Color Markers</a>
-                        <div class="drop-menu-content">
-                            <a href="rothko_painting/rothko.html">Ugly Rothko Painting</a><br />
-                            <a href="css_flexbox/css_flexbox.html" />CSS Flexbox Cat Pics
-                        </div>
-                    </li>
-                    <li><a href="registration_form/index.html">Registration Form</a></li>
-                    <li><a href="survey_form/index.html">Survey Form</a></li>
-                    <li><a href="nutrition_label/nutrition_label.html">Nutrition Label</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>        <h1 id="title">Survey of Free IT Educational Websites</h1>
-    <p id="description">Please help us evaluate some free Tech-ED websites.</p>
-    <form id="survey-form" action='https://register-demo.freecodecamp.org'>
-        <h2>Information about you:</h2>
-        <fieldset class="firstset">
-            <label id="name-label">Name: <input type="text" id="name" required placeholder="First_name Last_name" /></label>
-            <label id="email-label">Email: <input type="email" id="email" required placeholder="name@email.com" /></label>
-            <label id="number-label">Age: <input type="number" id="number" min="13" max="110" placeholder="Enter number between 13 and 100" /></label>
-        </fieldset>
-        <h2>What is your favorite Tech-ED site? </h2>
-        <fieldset>
-            <p>Choose a Tech-ED site:</p>
-            <select id="dropdown" required>
-                <option value="">(select one)</option>
-                <option value="Khan Academy">Khan Academy</option>
-                <option value="Free Code Camp">Free Code Camp</option>
-                <option value="The Odin Project">The Odin Project</option>
-                <option value="Microsoft Learn">Microsoft Learn</option>
-            </select>
-            <p>Check what you like about this site:</p>
-            <label for="video" class="checkboxes">
-                <input id="video" type="checkbox" value="video-lectures" /> Video Lectures
-            </label>
-            <label for="text" class="checkboxes">
-                <input id="text" type="checkbox" value="text-lectures" /> Text Lectures
-            </label>
-            <label for="tutorials" class="checkboxes">
-                <input id="tutorials" type="checkbox" value="tutorials" /> Follow-along Tutorials
-            </label>
-            <label for="projects" class="checkboxes">
-                <input id="projects" type="checkbox" value="projects" /> Independant Projects
-            </label>
-            <label for="approach" class="checkboxes">
-                <input id="approach" type="checkbox" value="approach" /> Learning Approach
-            </label>
+    <body>
+        <header>
+            <div class="menu-bar">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Cat Photo App</a></li>
+                        <li><a href="cafe_menu/index.html">Cafe Menu</a></li>
+                        <li class="drop-menu">
+                            <a href="css_color_markers/index.html">CSS Color Markers</a>
+                            <div class="drop-menu-content">
+                                <a href="rothko_painting/rothko.html">Ugly Rothko Painting</a><br />
+                                <a href="css_flexbox/css_flexbox.html" />CSS Flexbox Cat Pics
+                            </div>
+                        </li>
+                        <li><a href="registration_form/index.html">Registration Form</a></li>
+                        <li><a href="survey_form/index.html">Survey Form</a></li>
+                        <li><a href="nutrition_label/nutrition_label.html">Nutrition Label</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>        <h1 id="title">Survey of Free IT Educational Websites</h1>
+        <p id="description">Please help us evaluate some free Tech-ED websites.</p>
+        <form id="survey-form" action='https://register-demo.freecodecamp.org'>
+            <h2>Information about you:</h2>
+            <fieldset class="firstset">
+                <label id="name-label">Name: <input type="text" id="name" required placeholder="First_name Last_name" /></label>
+                <label id="email-label">Email: <input type="email" id="email" required placeholder="name@email.com" /></label>
+                <label id="number-label">Age: <input type="number" id="number" min="13" max="110" placeholder="Enter number between 13 and 100" /></label>
+            </fieldset>
+            <h2>What is your favorite Tech-ED site? </h2>
+            <fieldset>
+                <p>Choose a Tech-ED site:</p>
+                <select id="dropdown" required>
+                    <option value="">(select one)</option>
+                    <option value="Khan Academy">Khan Academy</option>
+                    <option value="Free Code Camp">Free Code Camp</option>
+                    <option value="The Odin Project">The Odin Project</option>
+                    <option value="Microsoft Learn">Microsoft Learn</option>
+                </select>
+                <p>Check what you like about this site:</p>
+                <label for="video" class="checkboxes">
+                    <input id="video" type="checkbox" value="video-lectures" /> Video Lectures
+                </label>
+                <label for="text" class="checkboxes">
+                    <input id="text" type="checkbox" value="text-lectures" /> Text Lectures
+                </label>
+                <label for="tutorials" class="checkboxes">
+                    <input id="tutorials" type="checkbox" value="tutorials" /> Follow-along Tutorials
+                </label>
+                <label for="projects" class="checkboxes">
+                    <input id="projects" type="checkbox" value="projects" /> Independant Projects
+                </label>
+                <label for="approach" class="checkboxes">
+                    <input id="approach" type="checkbox" value="approach" /> Learning Approach
+                </label>
 
-            <p>Rate this site:</p>
-            <label class="checkboxes">
-                <input type="radio" name="site-rating" value="1" /> 1 (poor)
-            </label>
-            <label class="checkboxes">
-                <input type="radio" name="site-rating" value="2" /> 2 (below average)
-            </label>
-            <label class="checkboxes">
-                <input type="radio" name="site-rating" value="3" /> 3 (average)
-            </label>
-            <label class="checkboxes">
-                <input type="radio" name="site-rating" value="4" />  4 (above average)
-            </label>
-            <label class="checkboxes">
-                <input type="radio" name="site-rating" value="5" /> 5 (outstanding)
-            </label>
-            <br />
-            <br />
-        </fieldset>
-        <h2>What would you change about this site?</h2>
-        <fieldset>
-            <textarea></textarea>
+                <p>Rate this site:</p>
+                <label class="checkboxes">
+                    <input type="radio" name="site-rating" value="1" /> 1 (poor)
+                </label>
+                <label class="checkboxes">
+                    <input type="radio" name="site-rating" value="2" /> 2 (below average)
+                </label>
+                <label class="checkboxes">
+                    <input type="radio" name="site-rating" value="3" /> 3 (average)
+                </label>
+                <label class="checkboxes">
+                    <input type="radio" name="site-rating" value="4" />  4 (above average)
+                </label>
+                <label class="checkboxes">
+                    <input type="radio" name="site-rating" value="5" /> 5 (outstanding)
+                </label>
+                <br />
+                <br />
+            </fieldset>
+            <h2>What would you change about this site?</h2>
+            <fieldset>
+                <textarea></textarea>
 
-        </fieldset>
-        <input type="submit" id="submit" value="Submit" />
-    </form>
-</body>
-    </html>
+            </fieldset>
+            <input type="submit" id="submit" value="Submit" />
+        </form>
+    </body>
+        </html>
 
