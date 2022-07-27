@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\registration_form",
-    "\\survey_form"
+    "\\cafe_menu",
+    "\\css_color_markers",
+    "\\css_flexbox",
+    "\\rothko_painting"
   ],
+  "SelectedNode": "\\css_color_markers\\index.html",
   "PreviewInSolutionExplorer": false
 }

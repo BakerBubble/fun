@@ -1,14 +1,21 @@
+/* Cat APP styles -- Also Styles for Menu Bar */
+
 body {
     font-family: Gantari;
+    margin:0;
+    font-size:16px;
 }
 .menu-bar {
+
+    box-sizing: border-box;
+    font-family: Gantari;
     background: linear-gradient(90deg,#883cc7,#5042ef,#46b0ed);
     border-radius: 10px;
     border: 2px outset gray;
-    position: fixed;
-    top: 1px;
+    top: 3px;
     left: 1px;
     width: 99%;
+    margin: 3px 0 10px;
 }
 nav ul {
     margin: 0;
@@ -25,4 +32,20 @@ nav li a {
     text-decoration: none;
 }
 
-/**/
+.drop-menu:hover .drop-menu-content {
+    display: block;
+}
+
+.drop-menu-content {
+    display:none;
+    position: absolute;
+    top:1.7em;
+    min-height:3em;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#883cc7,#5042ef,#46b0ed);
+    border-radius: 10px;
+    border: 2px outset gray;
+    z-index: 1;
+    margin: 0;
+    padding: 5px 8px;
+}
